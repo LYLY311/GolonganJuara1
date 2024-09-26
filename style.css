@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-board {
+    margin-top: 20px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#draw-card {
+    margin-top: 20px;
+    padding: 10px;
+}
